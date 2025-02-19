@@ -50,7 +50,7 @@ jobs:
         run: |
           sshpass -p "$SSH_PASSWORD" ssh -T -o StrictHostKeyChecking=no -p 22 administrator@107.178.98.246 << 'EOF'
             cd C:\Users\Administrator\Documents\Test\tmpslack
-            git pull git@github.com:CistemInnovacion/tmpslack.git staging
+            git pull git@github.com:CistemInnovacion/tmpslack.git main
           EOF
 
       - name: Final message
