@@ -3,7 +3,7 @@ name: Sync Latest Code to Windows Server
 on:
   push:
     branches:
-      - staging
+      - main
 
 jobs:
   update-server:
